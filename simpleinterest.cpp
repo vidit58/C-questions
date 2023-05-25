@@ -13,10 +13,10 @@ int main() {
   cout << "Enter time period: ";
   cin >> t;
   
-  // Calculate simple interest 
+
   si = (p * r * t) / 100;   
   
-  // Calculate compound interest
+
   ci = p * (pow((1 + r/100), t) - 1);  
   
   cout << "Simple interest = " << si << endl;
